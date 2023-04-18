@@ -1,0 +1,137 @@
+body{
+    background-color: #18122B;
+}
+/*Navbar*/
+.nav-bar{
+    display: flex;
+    background-color:#635985 ;
+}
+.nav-bar .logo{
+    display: flex;
+    width: 19%;
+}
+.nav-bar .logo img{
+
+    width: 50px;
+    margin:4%;
+    margin-left: 20%;
+}
+.nav-bar .logo span{
+    font-size: 20px;
+    font-family: montserrat medium;
+    color: white;
+    margin-top: 8%;
+}
+.search{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+.search input{
+    padding:1%;
+    width: 60%;
+    border-radius: 10px;
+    border: #18122B solid 2px;
+    font-size: 20px;
+    
+}
+/*Profiles*/
+.home{
+    display: flex;
+}
+.home hr{
+    height: 1500px;
+    margin: 0;
+}
+.profiles{
+    width: 20%;
+}
+.profiles h1{
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+.profiles li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+.profiles li span{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-family: sunflower;
+}
+.profiles img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+/*Posts*/
+
+.post-card ul {
+    list-style: none;
+}
+.post-card li{
+    margin-bottom: 70px;
+    background-color: #443C68;
+    width: 114%;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #635985;
+}
+.like-dis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 5%;
+
+}
+.like-dis #btnUp:hover{
+    color: green;
+}
+.like-dis #btnDown:hover{
+    color: red;
+}
+.like-dis button{
+    cursor: pointer;
+    border: none;
+    font-size: 50px;
+    background-color: transparent;
+    color: white;
+}
+.like-dis span{
+    font-size: 22px;
+    color: rgb(206, 206, 206);
+
+}
+.post-card h1{
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(206, 206, 206);
+    font-size: 25px;
+} 
+.post-card .section1{
+    display: flex;
+}
+
+.post-card .section1 img{
+    width: 1150px;
+}
+.post-card .section2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: sunflower;
+    color: rgb(206, 206, 206);
+    margin-left: 2% ;
+    width: 100%;
+}
+.post-card .section2 .user{
+    color: rgb(0, 119, 255);
+}
